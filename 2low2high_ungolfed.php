@@ -9,8 +9,7 @@ do
 {
 	$y++;
 	$z = readline("\n");
-	if($x == $z) break;
-	echo "\x54\x4f\x4f " . ($z > $x ? "\x48\x49\x47\x48" : "\x4c\x4f\x57");
+	echo $x != $z ? "\x54\x4f\x4f " . ($z > $x ? "\x48\x49\x47\x48" : "\x4c\x4f\x57") : '';
 } while($x != $z)
 
 ?>
